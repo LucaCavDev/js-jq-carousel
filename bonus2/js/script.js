@@ -33,7 +33,7 @@ $(document).ready(function () {
   //-------------------------
 
 
-  $(".fa-circle").click(globoBlu);
+  $("i.fas").click(globoBlu);
 
   function globoBlu() {
     console.log("hai cliccato un globo, se è bianco lo trasformi blu se è blu resta blu!");
@@ -45,7 +45,7 @@ $(document).ready(function () {
     //rimuovo la classe attiva
 
     var imgAttiva = $("img.active");
-    imgAttiva.click("i").addClass("active");
+    imgAttiva.??????("i").addClass("active");
 
   }
 
